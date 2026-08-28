@@ -61,3 +61,27 @@ Assignments \& Daily work problems in STEP classes
 - Class name mismatch during compilation (`FilteredWordFrequency` class vs. `FilterWordFrequency.java` filename), resolved by ensuring filename matched the public class declaration.
 
 ---
+
+## Date: 27-08-2026
+
+**Today's Work:**
+- Implemented and compiled Session 3 Class Problems covering Object-Oriented Programming fundamentals:
+  - `ParallelArraysToClass.java`: Refactored parallel arrays into a `PlacementRecord` class and array of objects[cite: 2].
+  - `EncapsulatedMessWallet.java`: Implemented encapsulated data protection and boundary checks for hostel mess transactions[cite: 2].
+  - `OverloadedCourseConstructors.java`: Demonstrated constructor overloading and `this()` chaining for course credit calculation[cite: 2].
+  - `ReferenceCopiesIdCard.java`: Showcased object reference copies, state modification, and identity checks (`==`)[cite: 2].
+  - `InstanceVsStaticStudent.java`: Separated instance fields from static fields/methods for tracking shared college details[cite: 2].
+- Implemented and compiled Session 3 Homework Assignment Problems[cite: 3]:
+  - `LibraryInventory.java`: Built a `BookInventory` class to replace parallel arrays for library tracking[cite: 3].
+  - `EncapsulatedPayroll.java`: Designed an encapsulated `PayrollAccount` class with validation rules for bonus and tax deductions[cite: 3].
+  - `OverloadedEmployeeConstructors.java`: Created overloaded employee constructors with `this()` chaining for interns vs. full-time staff[cite: 3].
+  - `ReferenceCopiesHallTicket.java`: Evaluated reference copying vs. new object creation using hall ticket seat numbers[cite: 3].
+  - `InstanceVsStaticEmployee.java`: Used static fields and static methods to maintain global employee counts and company information[cite: 3].
+
+**Next Session Plan:**
+- Begin Week 4 topic solutions and set up `feature/session_4` branch.
+
+**Issues Faced:**
+- Directory setup adjustment resolved prior to compilation; no further blockers encountered.
+
+---
