@@ -85,3 +85,27 @@ Assignments \& Daily work problems in STEP classes
 - Directory setup adjustment resolved prior to compilation; no further blockers encountered.
 
 ---
+
+## Date: 30-08-2026
+
+**Today's Work:**
+- Implemented and compiled Session 4 Class Problems covering Basic OOP Constructs:
+  - `LibraryBook.java`: Constructor overloading and `this()` chaining for book ISBN cataloguing.
+  - `Employee.java`: Used `this` keyword to resolve field and parameter naming clashes during salary raises.
+  - `LateFeeAccount.java`: Enforced immutable calculation behavior using `final` methods for late fees.
+  - `SrmStudent.java`: Implemented a `static` initialization block for one-time college data loading.
+  - `AccountBatchProcessor.java`: Handled polymorphic payment processing using `instanceof` checks.
+- Implemented and compiled Session 4 Assignment Problems:
+  - `Participant.java`: Built overloaded constructors with `this()` chaining for hackathon registration.
+  - `Item.java`: Handled canteen inventory restocking while resolving name clashes with `this`.
+  - `ParkingTicket.java`: Calculated parking overstay fines locked with `final` methods.
+  - `MembershipCard.java`: Used a `static` block for one-time SRM library setup across card issues.
+  - `PaymentBatchProcessor.java`: Dispatched canteen payments and calculated totals using `instanceof`.
+
+**Next Session Plan:**
+- Begin Week 5 topic solutions and set up `feature/session_5` branch.
+
+**Issues Faced:**
+- Minor file path and gitkeep cleanup resolved prior to compilation; no further blockers encountered.
+
+---
