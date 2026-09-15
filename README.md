@@ -129,15 +129,15 @@ Assignments \& Daily work problems in STEP classes
 ## Date: 12-09-2026
 
 **Today's Work:**
-- Implemented and compiled Session 6 Classwork Problems.
-- Implemented and compiled Session 6 Assignment Problems.
-- Verified all Java solutions without syntax or compilation errors.
+- Implemented and compiled Session 6 Practice Problems in `oop_inheritance_polymorphism` covering inheritance, `super` calls, and method overriding.
+- Implemented and compiled Session 6 Assignment Problems covering multilevel inheritance, `instanceof` classification, downcasting, and static counters.
+- Verified all Java solutions in `src/main/java/oop_inheritance_polymorphism/` without syntax or compilation errors.
 - Maintained clean repository structure by isolating code in `feature/session_6`.
 
 **Next Session Plan:**
 - Review completed modules and prepare for upcoming session topics.
 
 **Issues Faced:**
-- None; code compiled and passed all test cases successfully.
+- Fixed package naming alignment from `session_6` to `oop_inheritance_polymorphism` to match directory structure constraints.
 
 ---
