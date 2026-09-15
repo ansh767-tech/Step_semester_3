@@ -109,3 +109,35 @@ Assignments \& Daily work problems in STEP classes
 - Minor file path and gitkeep cleanup resolved prior to compilation; no further blockers encountered.
 
 ---
+
+## Date: 05-09-2026
+
+**Today's Work:**
+- Implemented and compiled Session 5 Practice Problems covering access modifiers (`private`, `default`, `protected`, `public`) and encapsulation rules.
+- Implemented and compiled Session 5 Assignment Problems covering write-once/write-only JavaBean properties, immutability, and polymorphism.
+- Verified all Java solutions in `src/main/java/access_control_encapsulation/` without compilation errors.
+- Maintained clean repository structure by isolating code in `feature/session_5`.
+
+**Next Session Plan:**
+- Begin Session 6 topic solutions and set up `feature/session_6` branch.
+
+**Issues Faced:**
+- Resolved branch switching conflicts by properly staging and committing changes per branch snapshot.
+
+---
+
+## Date: 12-09-2026
+
+**Today's Work:**
+- Implemented and compiled Session 6 Classwork Problems.
+- Implemented and compiled Session 6 Assignment Problems.
+- Verified all Java solutions without syntax or compilation errors.
+- Maintained clean repository structure by isolating code in `feature/session_6`.
+
+**Next Session Plan:**
+- Review completed modules and prepare for upcoming session topics.
+
+**Issues Faced:**
+- None; code compiled and passed all test cases successfully.
+
+---
