@@ -171,3 +171,32 @@ Assignments \& Daily work problems in STEP classes
 * `CampusPremiereTicketCounter.java` - Auditorium ticket booking with tiered seat pricing, cancellation handling, and seat limits.
 * `FitZoneMembershipDesk.java` - Gym membership system enforcing state rules between `ACTIVE`, `FROZEN`, and `EXPIRED`.
 * `CampusNoticeBroadcaster.java` - Department notification engine broadcasting updates via Email, SMS, and App channels.
+
+**Date**: 26-09-2026  
+**Day**: Saturday  
+
+# Session 8: Object and Class Implementations
+
+## 💡 What I Learned
+* **Encapsulation**: How to protect object state by making attributes private and exposing controlled access methods.
+* **Polymorphism & Abstraction**: Designing flexible systems where base classes and interfaces define behavior, allowing subclasses to implement their own logic.
+* **State Management**: Building clean state transition rules for real-world scenarios (like managing active/frozen memberships or blocking resubmissions once graded).
+* **Loose Coupling**: Using interfaces so components can talk to each other without depending on specific underlying logic.
+
+---
+
+## 🛠️ Problems Implemented
+
+### Class Problems
+* `VehicleRentalSystem.java` - Daily rental calculations and vehicle categorization.
+* `LeaveManagementSystem.java` - Leave requests, balance tracking, and role-based approval workflows.
+* `OnlineExaminationSystem.java` - Dynamic quiz engine evaluating different question types and scoring rules.
+* `HotelBookingSystem.java` - Reservation system managing room categories, rates, and occupancy states.
+* `PaymentProcessingSystem.java` - Pluggable payment system supporting multiple payment methods using interfaces.
+
+### Assignment Problems (Category B)
+* `HostelLaundryQueue.java` - Washing machine booking system with encapsulated machine states.
+* `AssignmentSubmissionPortal.java` - Handles assignment submissions, applies late penalties, and locks resubmissions after grading.
+* `CampusPremiereTicketCounter.java` - Auditorium ticket booking with tiered seat pricing, cancellation handling, and seat limits.
+* `FitZoneMembershipDesk.java` - Gym membership system enforcing state rules between `ACTIVE`, `FROZEN`, and `EXPIRED`.
+* `CampusNoticeBroadcaster.java` - Department notification engine broadcasting updates via Email, SMS, and App channels.
