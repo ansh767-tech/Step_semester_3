@@ -145,55 +145,29 @@ Assignments \& Daily work problems in STEP classes
 =======
 ---
 
-## Date: 19-09-2026
-**Day**: Saturday
+## Date: 19-09-2026 
+# Session 8: Object and Class Implementations
 
-**Today's Work:**
-- Implemented and compiled **Session 7 Class Problems** and **Assignment Problems** covering Object-Oriented Programming fundamentals (Abstract Classes, Interfaces, and Polymorphism).
-- Created folder structure `src/main/java/abstraction_interface/` containing `class_problems/` and `assignment_problems/`.
-- **Assignment Problems Implemented**:
-  - `Problem 1`: Morning Wake-Up Circuit (`Ringable`, `AlarmClock`, `Doorbell`)
-  - `Problem 2`: Gallery Description Cards (`ArtPiece`, `Painting`, `Sculpture`)
-  - `Problem 3`: Backyard Toolshed Routine (`GardenTool`, `CuttingTool`, `Pruner`)
-  - `Problem 4`: Digital Classroom Setup (`ClassroomDevice`, `Chargeable`, `Tablet`)
-  - `Problem 5`: Skyline Delivery Fleet (`Drone`, `Trackable`, `DeliveryDrone`, `ScoutDrone`, `GroundRobot`)
-
-**Next Session Plan:**
-- Begin Week 8 topic solutions and set up `feature/session_8` branch.
-
-**Issues Faced:**
-- Addressed duplicate class collisions and recursive multi-directory compilation; resolved using clean package structure and PowerShell batch compilation.
-
-# Date: 26-09-2026
-
-# Category B - OOP Assignment Solutions
-
-Java implementations for the Category B coding assignments, demonstrating core OOP concepts like Encapsulation, Inheritance, Polymorphism, and Abstraction.
+## 💡 What I Learned
+* **Encapsulation**: How to protect object state by making attributes private and exposing controlled access methods.
+* **Polymorphism & Abstraction**: Designing flexible systems where base classes and interfaces define behavior, allowing subclasses to implement their own logic.
+* **State Management**: Building clean state transition rules for real-world scenarios (like managing active/frozen memberships or blocking resubmissions once graded).
+* **Loose Coupling**: Using interfaces so components can talk to each other without depending on specific underlying logic.
 
 ---
 
-## 📂 Overview & Solutions
+## 🛠️ Problems Implemented
 
-| Question | File Name | Key Concepts | Summary |
-| :--- | :--- | :--- | :--- |
-| **Q1: Laundry Queue** | `HostelLaundryQueue.java` | Encapsulation, Abstraction | Manages machine states and wash cycles (`Quick`, `Normal`, `Heavy`).[cite: 13] |
-| **Q2: Submission Portal** | `AssignmentSubmissionPortal.java` | Polymorphism, State Rules | Applies late penalties by assignment type and blocks resubmission after grading.[cite: 13, 14] |
-| **Q3: Ticket Counter** | `CampusPremiereTicketCounter.java` | Multiplicity, Pricing | Handles tiered seat booking, release on cancellation, and a 6-seat cap.[cite: 14, 15] |
-| **Q4: Membership Desk** | `FitZoneMembershipDesk.java` | State Pattern, Abstraction | Calculates plan discounts and enforces `ACTIVE`, `FROZEN`, and `EXPIRED` rules.[cite: 15, 16] |
-| **Q5: Notice Broadcaster** | `CampusNoticeBroadcaster.java` | Observer Pattern, Interfaces | Dispatches department notices to students via `Email`, `SMS`, and `App`.[cite: 16] |
+### Class Problems
+* `VehicleRentalSystem.java` - Daily rental calculations and vehicle categorization.
+* `LeaveManagementSystem.java` - Leave requests, balance tracking, and role-based approval workflows.
+* `OnlineExaminationSystem.java` - Dynamic quiz engine evaluating different question types and scoring rules.
+* `HotelBookingSystem.java` - Reservation system managing room categories, rates, and occupancy states.
+* `PaymentProcessingSystem.java` - Pluggable payment system supporting multiple payment methods using interfaces.
 
----
-
-## 🚀 How to Run
-
-```bash
-# Compile all files
-javac Object_Class/assignment_problems/*.java
-
-# Run individual programs
-java Object_Class.assignment_problems.HostelLaundryQueue
-java Object_Class.assignment_problems.AssignmentSubmissionPortal
-java Object_Class.assignment_problems.CampusPremiereTicketCounter
-java Object_Class.assignment_problems.FitZoneMembershipDesk
-java Object_Class.assignment_problems.CampusNoticeBroadcaster
->>>>>>> feature/session_8
+### Assignment Problems (Category B)
+* `HostelLaundryQueue.java` - Washing machine booking system with encapsulated machine states.
+* `AssignmentSubmissionPortal.java` - Handles assignment submissions, applies late penalties, and locks resubmissions after grading.
+* `CampusPremiereTicketCounter.java` - Auditorium ticket booking with tiered seat pricing, cancellation handling, and seat limits.
+* `FitZoneMembershipDesk.java` - Gym membership system enforcing state rules between `ACTIVE`, `FROZEN`, and `EXPIRED`.
+* `CampusNoticeBroadcaster.java` - Department notification engine broadcasting updates via Email, SMS, and App channels.
