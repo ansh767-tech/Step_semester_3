@@ -200,3 +200,32 @@ Assignments \& Daily work problems in STEP classes
 * `CampusPremiereTicketCounter.java` - Auditorium ticket booking with tiered seat pricing, cancellation handling, and seat limits.
 * `FitZoneMembershipDesk.java` - Gym membership system enforcing state rules between `ACTIVE`, `FROZEN`, and `EXPIRED`.
 * `CampusNoticeBroadcaster.java` - Department notification engine broadcasting updates via Email, SMS, and App channels.
+
+**Date**: 03-10-2026  
+**Day**: Saturday  
+
+# Session 9: Data Structures (Arrays, Hashing, Two Pointers, Sliding Window, Binary Search)
+
+## 💡 What I Learned
+* **Binary Search & Search Space Reduction**: Leveraging pre-sorted data to look up targets and insertion slots in $O(\log N)$ time instead of scanning linearly[cite: 3, 14].
+* **Two Pointers & Space Optimization**: Traversing sorted or bounded arrays from both ends inward to solve pair sums and container boundaries in single-pass $O(N)$ time[cite: 7, 12].
+* **Sliding Window Technique**: Managing fixed-size contiguous subarrays efficiently by updating running window sums in $O(1)$ per step rather than re-computing from scratch[cite: 13].
+* **Hash-Based Lookup & State Tracking**: Utilizing hash maps and sets to store complements or frequency counts for $O(1)$ fast lookups[cite: 5, 13].
+
+---
+
+## 🛠️ Problems Implemented
+
+### Class Problems
+* `LibraryCatalogLookup.java` - Optimized ISBN lookup in a sorted catalog using Binary Search[cite: 3].
+* `PairWithTargetSum.java` - Unsorted pair sum finder comparing brute-force vs. $O(N)$ hash set complement checking[cite: 5].
+* `MaximizeArea.java` - Two-pointer technique to calculate maximum water container area between boundary lines[cite: 7].
+* `FindPeakElement.java` - Modified binary search to identify peak elements in logarithmic time.
+* `PrefixSumQueries.java` - $O(N)$ precomputation array supporting $O(1)$ range sum query operations.
+
+### Assignment Problems (Category B)
+* `ClassTopperFinder.java` - Evaluates a 2D student-subject grid to identify the top scorer with index tie-breaking rules[cite: 11].
+* `MergeTokenQueues.java` - Combines two pre-sorted hospital queue token arrays into a single sorted list using two pointers[cite: 11, 12].
+* `MostPopularCanteenOrder.java` - Identifies the most ordered canteen item using a two-pass hash map frequency counter[cite: 12, 13].
+* `HotWeatherAlertWindows.java` - Sliding window monitor tracking average temperatures across contiguous $k$-hour blocks[cite: 13].
+* `TicketPriceSlotFinder.java` - Binary search implementation to locate exact prices or target insertion indices[cite: 14].
