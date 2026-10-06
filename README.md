@@ -105,3 +105,36 @@ Assignments \& Daily work problems in STEP classes
 
 **Issues Faced:**
 - Addressed duplicate class collisions and recursive multi-directory compilation; resolved using clean package structure and PowerShell batch compilation.
+
+# Tuesday, October 6, 2026
+
+# Category B - OOP Assignment Solutions
+
+Java implementations for the Category B coding assignments, demonstrating core OOP concepts like Encapsulation, Inheritance, Polymorphism, and Abstraction.
+
+---
+
+## 📂 Overview & Solutions
+
+| Question | File Name | Key Concepts | Summary |
+| :--- | :--- | :--- | :--- |
+| **Q1: Laundry Queue** | `HostelLaundryQueue.java` | Encapsulation, Abstraction | Manages machine states and wash cycles (`Quick`, `Normal`, `Heavy`).[cite: 13] |
+| **Q2: Submission Portal** | `AssignmentSubmissionPortal.java` | Polymorphism, State Rules | Applies late penalties by assignment type and blocks resubmission after grading.[cite: 13, 14] |
+| **Q3: Ticket Counter** | `CampusPremiereTicketCounter.java` | Multiplicity, Pricing | Handles tiered seat booking, release on cancellation, and a 6-seat cap.[cite: 14, 15] |
+| **Q4: Membership Desk** | `FitZoneMembershipDesk.java` | State Pattern, Abstraction | Calculates plan discounts and enforces `ACTIVE`, `FROZEN`, and `EXPIRED` rules.[cite: 15, 16] |
+| **Q5: Notice Broadcaster** | `CampusNoticeBroadcaster.java` | Observer Pattern, Interfaces | Dispatches department notices to students via `Email`, `SMS`, and `App`.[cite: 16] |
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Compile all files
+javac Object_Class/assignment_problems/*.java
+
+# Run individual programs
+java Object_Class.assignment_problems.HostelLaundryQueue
+java Object_Class.assignment_problems.AssignmentSubmissionPortal
+java Object_Class.assignment_problems.CampusPremiereTicketCounter
+java Object_Class.assignment_problems.FitZoneMembershipDesk
+java Object_Class.assignment_problems.CampusNoticeBroadcaster
