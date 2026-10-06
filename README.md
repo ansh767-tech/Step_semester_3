@@ -85,3 +85,23 @@ Assignments \& Daily work problems in STEP classes
 - Directory setup adjustment resolved prior to compilation; no further blockers encountered.
 
 ---
+---
+
+## Date: 19-09-2026
+**Day**: Saturday
+
+**Today's Work:**
+- Implemented and compiled **Session 7 Class Problems** and **Assignment Problems** covering Object-Oriented Programming fundamentals (Abstract Classes, Interfaces, and Polymorphism).
+- Created folder structure `src/main/java/abstraction_interface/` containing `class_problems/` and `assignment_problems/`.
+- **Assignment Problems Implemented**:
+  - `Problem 1`: Morning Wake-Up Circuit (`Ringable`, `AlarmClock`, `Doorbell`)
+  - `Problem 2`: Gallery Description Cards (`ArtPiece`, `Painting`, `Sculpture`)
+  - `Problem 3`: Backyard Toolshed Routine (`GardenTool`, `CuttingTool`, `Pruner`)
+  - `Problem 4`: Digital Classroom Setup (`ClassroomDevice`, `Chargeable`, `Tablet`)
+  - `Problem 5`: Skyline Delivery Fleet (`Drone`, `Trackable`, `DeliveryDrone`, `ScoutDrone`, `GroundRobot`)
+
+**Next Session Plan:**
+- Begin Week 8 topic solutions and set up `feature/session_8` branch.
+
+**Issues Faced:**
+- Addressed duplicate class collisions and recursive multi-directory compilation; resolved using clean package structure and PowerShell batch compilation.
