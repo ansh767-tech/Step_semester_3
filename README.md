@@ -85,7 +85,6 @@ Assignments \& Daily work problems in STEP classes
 - Directory setup adjustment resolved prior to compilation; no further blockers encountered.
 
 ---
-<<<<<<< HEAD
 
 ## Date: 30-08-2026
 
@@ -141,8 +140,6 @@ Assignments \& Daily work problems in STEP classes
 **Issues Faced:**
 - Fixed package naming alignment from `session_6` to `oop_inheritance_polymorphism` to match directory structure constraints.
 
----
-=======
 ---
 
 ## Date: 19-09-2026 
@@ -229,3 +226,35 @@ Assignments \& Daily work problems in STEP classes
 * `MostPopularCanteenOrder.java` - Identifies the most ordered canteen item using a two-pass hash map frequency counter[cite: 12, 13].
 * `HotWeatherAlertWindows.java` - Sliding window monitor tracking average temperatures across contiguous $k$-hour blocks[cite: 13].
 * `TicketPriceSlotFinder.java` - Binary search implementation to locate exact prices or target insertion indices[cite: 14].
+
+---
+
+**Date**: 10-10-2026  
+**Day**: Saturday  
+
+# Session 10: Linked Lists & OOP System Design
+
+## 💡 What I Learned
+* **Custom Singly Linked List**: Implementing dynamic linked node chains with $O(1)$ `addFirst`, `addLast` (using tail pointer), and $O(N)$ index-based insertion without relying on built-in collections.
+* **In-Place Node Manipulation**: Reversing singly linked lists in-place in $O(N)$ time and $O(1)$ auxiliary space using three-pointer state transitions (`prev`, `curr`, `next`), and performing value filtering with node removal.
+* **Doubly Linked List Traversal**: Maintaining bidirectional links (`prev` and `next`) with both `head` and `tail` pointers to enable efficient forward/backward traversals and $O(1)$ unlinking once target nodes are identified.
+* **Circular Linked List**: Modeling cyclic round-robin scheduling where `tail.next` points directly back to the head node.
+* **Object-Oriented System Modeling**: Applying encapsulation, polymorphism, abstract classes, interface contracts (`Chargeable`), and strict `equals()` / `hashCode()` identity enforcement for real-world business requirements.
+
+---
+
+## 🛠️ Problems Implemented
+
+### Class Problems
+* `BankAccountWithdrawalSystem.java` - Bank withdrawal system with minimum balance and overdraft limits across Savings and Current accounts.
+* `CampusVehiclePassSystem.java` - Vehicle pass fee management and electric charging bay allotment using interfaces.
+* `StudentClubRegistrationManagement.java` - Club membership system preventing duplicate registrations via custom `equals()` and `hashCode()` based on roll numbers.
+* `ClassMarksGridAnalysis.java` - 2D grid analysis computing student total marks, formatted subject averages, and class topper.
+* `PayrollRegisterSystem.java` - Polymorphic payroll engine generating structured payslips, total salary payout, and top earner for FullTime, PartTime, and Intern staff.
+
+### Assignment Problems (Category B)
+* `PriorityTokenInsertion.java` - Singly linked list implementing priority front insertion, normal rear insertion, and index-based repositioning.
+* `CancelledOrdersCleanup.java` - Singly linked list order cleanup removing all cancelled order codes in a single pass ($O(N)$ time, $O(1)$ space).
+* `ReverseTheQueue.java` - In-place reversal of ticket queue singly linked list without creating additional nodes.
+* `TrainCoachesBothWays.java` - Doubly linked list representing train coaches with bidirectional printing and coach detachment.
+* `RoundRobinGameTurns.java` - Circular linked list managing players taking turns in a fixed circle with tail pointer tracking.
